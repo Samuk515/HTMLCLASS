@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<style>
+    form {
+        background-color: rgb(255, 229, 212);
+        width: 600px;
+        height: auto;
+        padding: 20px;
+        margin: auto;
+        font-family: Arial, sans-serif;
+    }
+</style>
+<body>
+    <form action="">
+        <h1>Student Registration Form</h1>
+        Roll no: <input type="number" name="rollno" id="rollno"><br><br>
+        Student name: <input type="text" name="name" id="name" placeholder="First Name"> - <input type="text" placeholder="Last Name"><br><br>
+        Father's name: <input type="text" name="fathername" id="fathername"><br><br>
+        Date of Birth: <input type="date" name="dob" id="dob"> (DD-MM-YYYY)<br><br>
+        Mobile no: <input type="tel" name="mobileno" id="mobileno"><br><br>
+        Email id: <input type="email" name="email" id="email"><br><br>
+        Password: <input type="password" name="password" id="password"><br><br>
+        Gender: <input type="radio" name="gender" id="male"><label for="male">Male</label>
+                <input type="radio" name="gender" id="female"><label for="female">Female</label><br><br>
+        Department: <select name="" id="">
+            <option value="cse">CSE</option>
+            <option value="ece">IT</option>
+            <option value="mech">ECE</option>
+            <option value="civil">CIVIL</option>
+            <option value="chem">Mech</option>
+        </select><br><br>
+        Course: <select name="" id="">
+            <option value="">---------Select Current Course's</option>
+            <option value="mobtech">Mob tech</option>
+            <option value="ai">AI</option>
+            <option value="ds">DS</option> </select><br><br>
+        Student's photo: <input type="file" name="photo" id="photo"><br><br>
+        city: <input type="text" name="city" id="city"><br><br>
+        Address: <textarea name="address" id="address" cols="30" rows="20h"></textarea><br><br>
+        <input type="submit" value="Register">
+    </form>
+    
+</body>
+</html>
