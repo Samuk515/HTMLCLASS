@@ -1,0 +1,27 @@
+<store>
+<product id="1">
+<product name> Tv</product name>
+<brand>Sony </brand>
+<category>Electronics</category>
+<price>50000</price>
+<quantity>10</quantity>
+<discount>3000</discount>
+
+</product>
+<product id="2">
+<product name> Shirt</product name>
+<brand>Levis </brand>
+<category>Clothing</category>
+<price>2000</price>
+<quantity>50</quantity>
+<discount>200</discount>
+</product>
+<product id="3">
+<product name> Noodle</product name>
+<brand>Waiwai </brand>
+<category>Food</category>
+<price>50</price>
+<quantity>20</quantity>
+<discount>10</discount>
+</product>
+</store>

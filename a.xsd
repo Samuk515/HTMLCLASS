@@ -1,0 +1,51 @@
+<xs:schema>
+ <xs:element name="store">
+ <xs:complexType>
+ <xs:sequence>
+ <xs:element name="product">
+ <xs:complexType>
+ <xs:sequence>
+ <xs:element name="productname" type="xs:string">
+ <xs:element name="brand" type="xs:string"/>
+ <xs:element name="category" type="xs:string"/>
+ <xs:simpleType>
+ <xs:restriction base="xs:string">
+    <xs:enumeration value="Electronics"/>   
+    <xs:enumeration value="Clothing"/>
+    <xs:enumeration value="Groceries"/>
+    
+    </xs:restriction>
+    </xs:simpleType>
+    </xs:element>
+
+     <xs:element name="price" type="xs:decimal"/>
+ <xs:simpleType>
+ <xs:restriction base="xs:decimal">
+    <xs:minInclusive value="0"/>
+    
+    </xs:restriction>
+    </xs:simpleType>
+    </xs:element>
+
+     <xs:element name="quantity" type="xs:integer"/>
+ <xs:simpleType>
+ <xs:restriction base="xs:integer">
+    <xs:minInclusive value="0"/>
+    <xs:maxInclusive value="100"/>
+    
+    </xs:restriction>
+    </xs:simpleType>
+    </xs:element>
+
+     <xs:element name="discount" type="xs:integer"/>
+ <xs:simpleType>
+ <xs:restriction base="xs:integer">
+    <xs:minInclusive value="0"/>
+    <xs:maxInclusive value="50"/>
+    </xs:sequence>
+    </xs:complexType>
+    </xs:element>
+    </xs:sequence>
+    </xs:complexType>
+    </xs:element>
+    </xs:schema>
