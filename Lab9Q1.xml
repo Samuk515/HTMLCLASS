@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<e-commerce>
+   <customer id="C1234">
+        <name>Samir Singh</name>
+        <address> Dhobighat,lalitpur</address>
+        <email>Singhsamir@gmail.com</email>
+        <phone>9841234567</phone>
+</customer>
+<order>
+    <order_id>12345</order_id>
+    <product>
+        <name>Smartphone</name>
+        <price>500</price>
+        <quantity>1</quantity>
+    </product>
+    <product>
+        <name>Laptop</name>
+        <price>1000</price>
+        <quantity>1</quantity>
+    </product>
+    <payment>
+        <method>Credit Card</method>
+        <status>Completed</status>
+    </payment>
+    <shipping>
+        <address>Dhobighat,lalitpur</address>
+        <status>Shipped</status>
+    </shipping>
+</order>
+<customer id="C5678">
+        <name>Shreejal Shrestha</name>
+        <address>Gongabu,kathmandu</address>
+        <email>shreejalshrestha@gmail.com</email>
+        <phone>9841234568</phone>
+</customer> 
+<order>
+    <order_id>67890</order_id>
+    <product>
+        <name>Tablet</name>
+        <price>300</price>
+        <quantity>2</quantity>
+    </product>
+    <payment>
+        <method>E-Sewa</method>
+        <status>Pending</status>
+    </payment>
+    <shipping>
+        <address>Gongabu,kathmandu</address>
+        <status>Processing</status>
+    </shipping>
+</order>
+</e-commerce>

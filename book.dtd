@@ -1,0 +1,12 @@
+<!ELEMENT Books (Book+)>
+<!ELEMENT Book (title?, isbn+, (zipcode | author), publish*)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT isbn (#PCDATA)>
+<!ELEMENT zipcode (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT publish (#PCDATA)>
+
+<!ATTLIST title name CDATA #IMPLIED>
+<!ATTLIST isbn no CDATA #REQUIRED>
+<!ATTLIST zipcode Zname CDATA "232232323">
+<!ATTLIST publish year CDATA #FIXED "1995">

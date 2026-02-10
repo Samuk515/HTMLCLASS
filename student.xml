@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE message
+[
+<!ELEMENT message (sender*,receiver+,(time|watch),size,rate?)>
+<!ELEMENT sender (#PCDATA)>
+<!ELEMENT receiver (#PCDATA)>
+<!ELEMENT time (#PCDATA)>
+<!ELEMENT watch (#PCDATA)>
+<!ELEMENT size (#PCDATA)>
+<!ELEMENT rate (#PCDATA)>
+]>
+<message>
+    <sender>Samir Singh</sender>
+    <receiver>Shreejal Shrestha</receiver> 
+    <time>10:30 AM</time>  
+      <watch>Wrist Watch</watch>
+      <size>Medium</size>
+      <rate>4.5</rate>
+</message> 

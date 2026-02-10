@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT class (teacher*, student*,)>
+<!ELEMENT teacher (name, address?, phone, qualification, country)>
+<!ELEMENT student (name, id, address?, phone?, grade, country)>
+<!ELEMENT name (#PCDATA)>
+<!ATTLIST name type (Mr | Ms | Mrs | Dr) #REQUIRED>
+<!ELEMENT address (#PCDATA)>
+<!ATTLIST address add (temporary | permanent) #REQUIRED>
+<!ELEMENT phone (#PCDATA)>
+<!ATTLIST phone digits NMTOKEN #IMPLIED>
+<!ELEMENT qualification (#PCDATA)>
+<!ATTLIST qualification Quali (bachelor | master | phd) #REQUIRED>
+<!ELEMENT country (#PCDATA)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT grade (#PCDATA)>
+<!ATTLIST grade grad NMTOKEN #REQUIRED>
+

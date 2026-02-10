@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <Style>
+        body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f0f0f0;
+        color: #333;
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 2rem;
+        background-color: #ffffff;
+        box-shadow: 0 2px 4px rgba(180, 13, 13, 0.1);
+    }
+    nav h1 {
+        margin: 0;
+        font-size: 1.5rem;
+        color: #38bdf8;
+    }
+    nav div a {
+        margin-left: 1.5rem;
+        text-decoration: none;
+        color: #333;
+        font-weight: 500;
+    }
+    nav div a:hover {
+        color: #38bdf8;
+    }
+    
+    section.container {
+        padding: 2rem;
+        max-width: 800px;
+        margin: auto;
+        text-align: center;
+    }
+    section.container h1 {
+        font-size: 2.5rem;
+        margin-bottom: 0.5rem;
+    }
+    section.container p {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }   
+      .main{
+        display: flex;
+        aspect-ratio: 3/2;
+        gap: 0.6rem;
+    }
+    .image{
+        background-position: left;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        text-align: center;
+        align-items: left;
+        height: 100%;
+        width: 100%;
+    }
+    .image1{
+        background-image: url(Sameer1.jpg);
+    
+        left: 0;
+        position: fixed;
+        width: 50vw;
+        height: 55vh
+       
+    }
+    .image2{
+        background-image: url(Pikachu.png);
+    
+        right: 0;
+        position: fixed;
+        width: 20vw;
+        height: 20vh;
+        left: 50vw; 
+    }
+     body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9;
+        color: #333;
+    }
+    
+.activelink{
+        color: #38bdf8;
+    }
+    .Real{
+        width: 100%;
+        height: 20px;
+        background-color: rgb(169, 187, 132);
+        position: relative;
+        overflow: hidden;
+    }
+    .Real::after{
+        content: "80%";
+        position: absolute;
+        height: 20px;
+        text-align: center;
+        width: 80%;
+        background-color: rgb(62, 185, 204);
+    }
+    .Real1{
+        width: 100%;
+        height: 20px;
+        background-color: rgb(169, 187, 132);
+        position: relative;
+        overflow: hidden;
+    }
+    .Real1::after{
+        content: "60%";
+        position: absolute;
+        height: 40px;
+        text-align: center;
+        width: 60%;
+        background-color: rgb(62, 185, 204);
+    }.Real2{
+        width: 100%;
+        height: 20px;
+        background-color: rgb(169, 187, 132);
+        position: relative;
+        overflow: hidden;
+    }
+    .Real2::after{
+        content: "70%";
+        position: absolute;
+        height: 30px;
+        text-align: center;
+        width: 70%;
+        background-color: rgb(62, 185, 204);
+    }
+    </Style>
+</head>
+<body><h1><span style="color:#38bdf8">About Me</span></h1>
+
+<nav>
+    <h1><center><span style="color:#38bdf8">Samir Singh</span></center></h1>
+<div>
+<a href="Lab8.html">Home</a>
+<a href="about.html" class="activelink">About</a>
+<a href="skills.html">Skills</a>
+<a href="projects.html">Projects</a>
+<a href="contact.html">Contact</a>
+<label for="theme"><i class="fa-solid fa-moon fa-bounce"></i></label>
+</div>
+</nav>
+
+<p>I am a creative BCA student passionate about web Development</p>
+<blockquote>"Coding is fun "</blockquote>
+
+<div class="main">
+    <div class="image image1"></div>
+    <div class="image image2"></div>
+</div> Web Designer
+<div class="Real"> </div>
+    Content Creator
+<div class="Real1"> </div>
+    Traveler
+<div class="Real2"> </div>
+    
+</body>
+</html>

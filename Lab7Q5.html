@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Cloths / Payment</title>
+    <style>
+       
+        * {box-sizing: border-box; margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif}
+        body {background: #fff; padding: 20px 30px 60px; color: #111}
+
+       
+        header {text-align:center; margin-bottom: 20px}
+        header h1 {color: #c20; font-style: italic; font-family: "Times New Roman", Georgia, serif; font-size: 36px}
+
+       
+        .wrap {display:flex; gap: 40px; align-items:flex-start}
+        .products {width: 360px}
+        .product {display:flex; gap:12px; align-items:center; margin:35px 0}
+        .thumb {width:75px; height:150px; background:#eee url('https://via.placeholder.com/56') center/cover no-repeat; border-radius:4px; flex-shrink:0}
+        .meta {font-size:13px; color:#154; line-height:1.4}
+        .meta b {display:block; color:#111; margin-bottom:6px}
+        .add {margin-left:auto}
+        .btn-add {
+            display:inline-block;
+            background: linear-gradient(#f4bf00,#e6a800);
+            color:#111;
+            border-radius:6px;
+            padding:10px 16px;
+            font-weight:700;
+            box-shadow: 0 2px 0 #b27a00 inset, 0 3px 0 rgba(0,0,0,0.12);
+            border:1px solid rgba(0,0,0,0.08);
+            white-space:nowrap;
+        }
+        .btn-add .cart {margin-left:8px; font-size:16px}
+
+ 
+ 
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cloths</h1>
+    </header>
+
+    <div class="wrap">
+        <div class="products">
+            <div class="product">
+                <div class="thumb" style="background-image: url('Pikachu.png');"></div>
+                <div class="meta">
+                    <b>For girls</b>
+                    <span style="color:#0a58a0">• Skirt<br>• Kurta<br>• One piece</span>
+                </div>
+                <div class="add">
+                    <span class="btn-add">Add to Cart <span class="cart">🛒</span></span>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="thumb" style="background-image: url('Sameer1.jpg');"></div>
+                <div class="meta">
+                    <b>For Boys</b>
+                    <span style="color:#0a58a0">• Shirt<br>• Pant<br>• Coat</span>
+                </div>
+                <div class="add">
+                    <span class="btn-add">Add to Cart <span class="cart">🛒</span></span>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="thumb" style="background-image: url('Messi.jpeg');"></div>
+                <div class="meta">
+                    <b>For kids</b>
+                    <span style="color:#0a58a0">• Shorts<br>• T-shirt<br>• Jacket</span>
+                </div>
+                <div class="add">
+                    <span class="btn-add">Add to Cart <span class="cart">🛒</span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

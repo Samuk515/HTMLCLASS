@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE class SYSTEM "class.dtd">
+
+<class>
+    <teacher>
+        <name type="Mr">Ram Kumar Sharma</name>
+        <address add="permanent">Kathmandu, Nepal</address>
+        <phone>9841234567</phone>
+        <qualification Quali="master">M.Sc in Computer Science</qualification>
+        <country>Nepal</country>
+    </teacher>
+
+    <teacher>
+        <name type="Ms">Priya Singh</name>
+        <address add="temporary">Pokhara, Nepal</address>
+        <phone>9845678901</phone>
+        <qualification Quali="bachelor">B.Tech in Information Technology</qualification>
+        <country>Nepal</country>
+    </teacher>
+
+    <teacher>
+        <name type="Dr">Arun Poudel</name>
+        <phone>9847891234</phone>
+        <qualification Quali="phd">Ph.D in Mathematics</qualification>
+        <country>Nepal</country>
+    </teacher>
+
+    <student>
+        <name type="Mr">Samir Singh</name>
+        <id>STU001</id>
+        <address add="permanent">Bhaktapur, Nepal</address>
+        <phone>9801234567</phone>
+        <grade grad="A">Excellent Performance</grade>
+        <country>Nepal</country>
+    </student>
+
+    <student>
+        <name type="Ms">Anjali Thapa</name>
+        <id>STU002</id>
+        <address add="temporary">Kathmandu, Nepal</address>
+        <phone>9821234567</phone>
+        <grade grad="A-">Very Good Performance</grade>
+        <country>Nepal</country>
+    </student>
+
+    <student>
+        <name type="Mr">Karan Joshi</name>
+        <id>STU003</id>
+        <grade grad="B_PLUS">Good Performance</grade>
+        <country>Nepal</country>
+    </student>
+
+    <student>
+        <name type="Ms">Neha Sharma</name>
+        <id>STU004</id>
+        <address add="permanent">Lalitpur, Nepal</address>
+        <grade grad="B">Average Performance</grade>
+        <country>Nepal</country>
+    </student>
+
+    <student>
+        <name type="Mr">Ravi Patel</name>
+        <id>STU005</id>
+        <phone>9834567890</phone>
+        <grade grad="C_PLUS">Satisfactory Performance</grade>
+        <country>Nepal</country>
+    </student>
+</class>

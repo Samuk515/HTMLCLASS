@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: aqua;
+        }
+        .ab {
+            text-align: center;
+            padding: 20px;
+            color: gray;
+            background-color: yellow;
+            height:500px;
+            width: 300px;
+            margin: auto;
+        }
+
+        .text {
+            margin-bottom: 15px;
+            padding: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="ab">
+        <h1>Payment details</h1> <br>
+        Full Name <br>
+        <input type="text" placeholder="samir Singh" class="text"> <br>
+        Email <br>
+        <input type="text" placeholder="Samir@example.com" class="text"> <br>
+        Card Number <br>
+        <input type="number" placeholder="1234567" class="text"> <br>
+        Expiry Date <br>
+        <input type="date" class="text"> <br>
+        CVV <br>
+        <input type="number" placeholder="12345" class="text"> <br>
+        Accepted <br>
+        <img src="data:image/png;base64,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" alt=""
+            height="50px" width="70px">
+    </div>
+</body>
+
+</html>

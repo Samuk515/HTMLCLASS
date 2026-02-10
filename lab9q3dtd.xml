@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Books SYSTEM "books.dtd">
+
+<Books>
+    <Book>
+        <title name="Sample Title">Introduction to XML</title>
+        <isbn no="123456789">ISBN-123-456</isbn>
+        <zipcode Zname="232232323">10001</zipcode>
+        <publish year="1995">Publisher Name</publish>
+    </Book>
+</Books>

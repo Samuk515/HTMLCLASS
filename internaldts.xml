@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book
+[
+<!ELEMENT books (book)>
+<!ELEMENT book (title?,isbn+,(zipcode|author),publish*)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT isbn (#PCDATA)>
+<!ELEMENT zipcode (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT publish (#PCDATA)>
+<!ATTLIST zipcode zname CDATA #FIXED "23223232">
+<!ATTLIST publish year CDATA #FIXED "1995">
+<!ATTLIST title name CDATA #IMPLIED>
+<!ATTLIST isbn no CDATA #IMPLIED>
+]       
+>
+<books>
+<book>
+    <title>Web tech</title>
+    <isbn>123-456-789</isbn>
+    <author>Samir Singh</author>
+    <zipcode zname="222-333-222-444">+977</zipcode>
+    <publish year="1995">Tech Publishers</publish>
+    <publish>Global Books</publish>
+</book>
+</books>
