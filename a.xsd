@@ -1,4 +1,50 @@
-<xs:schema>
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="https://www.w3schools.com"
+xmlns="https://www.w3schools.com"
+elementFormDefault="qualified">
+<xs:element name="store">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="product">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="productname" type="xs:string"/>
+<xs:element name="brand" type="xs:string"/>
+
+<xs:element name="category">
+<xs:simpleType>
+<xs:restriction base="xs:string"> 
+<xs:enumeration value="Electronics"/>
+<xs:enumeration value="Clothing"/>
+<xs:enumeration value="Grocery"/>
+</xs:restriction>
+</xs:simpleType>
+</xs:element>
+<xs:element name="price">
+<xs:simpleType>
+<xs:restriction base="xs:decimal"> 
+<xs:minExclusive value="0"/>
+</xs:restriction>
+</xs:simpleType>
+</xs:element>
+<xs:element name="quantity">
+<xs:simpleType>
+<xs:restriction base="xs:integer"> 
+<xs:minInclusive value="1"/>
+<xs:maxInclusive value="100"/>
+</xs:restriction>
+</xs:simpleType>
+</xs:element>
+<xs:element name="discount">
+<xs:simpleType>
+<xs:restriction base="xs:integer"> 
+<xs:minInclusive value="0"/>
+<xs:maxInclusive value="50"/>
+</xs:restriction>
+</xs:simpleType>
+</xs:element>
+</xs:sequence> 
  <xs:element name="store">
  <xs:complexType>
  <xs:sequence>
