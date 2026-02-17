@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<company>
+    <Employee>
+      <id>1</id>
+      <Name>Samir Singh </Name>
+      <Gender>Male</Gender>
+      <Salary>50000</Salary>
+      <Qualification>Masters</Qualification>
+      <Address>Dhobighat</Address>
+    </Employee>
+<Employee>
+      <id>2</id>
+      <Name>Rohit Sharma </Name> 
+        <Gender>Male</Gender>
+        <Salary>45000</Salary>
+        <Qualification>Bachelors</Qualification>
+        <Address>Kathmandu</Address>
+    </Employee>
+    <Employee>
+      <id>3</id>
+      <Name>Priya Shrestha </Name>
+        <Gender>Female</Gender>
+        <Salary>55000</Salary>              
+        <Qualification>Masters</Qualification>
+        <Address>Pokhara</Address>
+    </Employee>
+    <Employee>
+      <id>4</id>
+      <Name>Ramesh Thapa </Name>
+<Gender>Male</Gender>
+        <Salary>40000</Salary>
+        <Qualification>Bachelors</Qualification>
+        <Address>Biratnagar</Address>
+    </Employee>
+    <Employee>
+      <id>5</id>
+      <Name>Sunita Karki </Name>
+        <Gender>Female</Gender>
+        <Salary>60000</Salary>
+        <Qualification>Masters</Qualification>
+        <Address>Butwal</Address>
+    </Employee>
+</company>
