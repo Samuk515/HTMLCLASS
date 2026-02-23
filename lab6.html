@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pseudo Elements Demo</title>
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        /* 1. ::before */
+        h1::before {
+            content: "3. ";
+        }
+
+        /* 2. ::after */
+        h1::after {
+            content: " - A CSS Pseudo Element Demo";
+        }
+
+        /* 3. ::first-letter */
+        p::first-letter {
+            font-size: 30px;
+            font-weight: bold;
+            color: red;
+        }
+
+        /* 4. ::first-line */
+        p::first-line {
+            color: blue;
+            font-style: italic;
+        }
+
+        /* 5. ::selection */
+        ::selection {
+            background: black;
+            color: yellow;
+        }
+
+        /* 6. ::placeholder */
+        input::placeholder {
+            color: gray;
+            font-style: italic;
+        }
+
+        /* 7. ::marker */
+        li::marker {
+            color: green;
+            font-size: 20px;
+        }
+
+
+       
+
+    </style>
+</head>
+<body>
+
+    <h1>CSS Pseudo Elements</h1>
+
+    <p>
+        This paragraph shows the use of first-letter and first-line pseudo elements.
+    </p>
+
+    <h2>List Example</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+
+</body>
+</html>
